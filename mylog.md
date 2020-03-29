@@ -19,3 +19,17 @@ De goede locatie is dus:
 https://raw.githubusercontent.com/LearnWebCode/welcome-to-git/master/images/dog.jpg
 
 
+###2020-03-29 16:19:31
+NPM, node packages maar ook andere dingen
+We starten met sites/travel-site
+We gaan daar via npm downloaden en "lijst" bijhouden, ,json file dus
+
+npm init -y maakt package.json file aan in project
+nadien doet npm install lodash een locale kopie in de project folder
+als de npm init -y niet gebeurd is dan komt de kopie in homedirectory 
+
+We installeren zo ook npm install normalize.css
+Als bestanden lokaal wel zijn, maar package.json bestand is er nog.... npm install zorg dat alles weer op zijn plaatst staat...
+
+
+
