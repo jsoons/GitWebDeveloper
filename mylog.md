@@ -58,6 +58,33 @@ Problemen opgelost?
 
 ### 2020-03-29 20:08:05
 postcss
+npm i css-loader style-loader  --save-dev
+aanmaken sites/travel-site/app/assets/styles/styles.css, stylesheet niet in html gebruiken
+in javascript file toevoegen... import '../styles/styles.css';
+in sites/travel-site/webpack.config.js toevoegen:
+module: {
+    rules: [
+      {test: /\.css$/i,
+        use: ['style-loader','css-loader'] 
+      }
+    ]
+  }
+
+Je laadt module, webpack standaard alleen maar javascript
+Dus extra module voor css, en dan via regexp laden van modules
+Opmerking: css-loader ==> laad stylesheet, style-loader ==> zorgt dat style in index.html komt
+
+postcss
+npm i postcss-loader  --save-dev
+npm i postcss-simple-vars postcss-nested autoprefixer --save-dev
+aanpassen in sites/travel-site/webpack.config.js, met array van requires voor modules
+const postCSSPlugins = [
+  require('postcss-simple-vars'), 
+  require('postcss-nested'), 
+  require('autoprefixer')
+];
+Nog aanpassingen in sites/travel-site/app/assets/styles/styles.css
+Dit is nu geen valid css file meer. maar webpack kan er door de extra modules mee aan de slag
 
 
 
