@@ -53,6 +53,12 @@ En watch: true ==> Hierdoor blijft webpack lopen en als er ergens aanpassingen z
 
 Om te stoppen webpack: CTRL+C
 
+Opmerking... npm modules worden mee in git ingecheckt. Nakijken
+
+### 2020-03-29 20:08:05
+postcss
+
+
 
 
 
