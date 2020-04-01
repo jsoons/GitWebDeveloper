@@ -87,6 +87,28 @@ Nog aanpassingen in sites/travel-site/app/assets/styles/styles.css
 Dit is nu geen valid css file meer. maar webpack kan er door de extra modules mee aan de slag
 
 
+### 2020-04-01 16:44:47
+Begin met het bouwen van de site
+CSS organisation, dat is volgende onderwerp
+We werken nu op andere computer en hebben npm modules niet meet in git gestoken, dus eerst npm i --save-dev
+Dan npm run dev
+
+We starten met opbouw css
+import
+Dan extra postcss module installeren met npm i postcss-import --save-dev
+En uiteraard ook configureren in sites/travel-site/webpack.config.js
+Array met plugins aanpassen , toevoegen require('postcss-import'),
+Bestanden die niet op zichzelf staan maar in ander bestand gebruikt moeten worden, starten met _ 
+normalize packege door gewoon import van module naar, dus @import 'normalize.css';
+
+In sites/travel-site/app/index.html div class bijvoegen om text aan te passen
+Dan in css sites/travel-site/app/assets/styles/modules/_large-hero.css via class id aanpassen
+transform functie!
+
+
+
+
+
 
 
 
