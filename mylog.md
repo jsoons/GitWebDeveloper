@@ -121,6 +121,15 @@ TE LEZEN nog: http://nicolasgallagher.com/about-html-semantics-front-end-archite
 & en toch nesten
 
 
+### 2020-04-01 20:59:50
+rem ==> root element, gebruiken om font size relatief te maken tov html element
+BEM
+B btn
+E __
+M --
+Dus bijkomende modifiers, voor btn btn--orange btn--large
+
+
 
 
 
