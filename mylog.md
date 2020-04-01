@@ -105,6 +105,24 @@ In sites/travel-site/app/index.html div class bijvoegen om text aan te passen
 Dan in css sites/travel-site/app/assets/styles/modules/_large-hero.css via class id aanpassen
 transform functie!
 
+### 2020-04-01 17:39:23
+Video 2, BEM
+Type en descendent 
+https://www.sitepoint.com/descendant-selector-css-selector/ : Descendant Selector (CSS Selector)
+Weg van Type en Descendant Selector Nu BEM als alternatief
+BEM , design
+Block, onanfhankelijk geheel in design
+Element, behoort bij een block
+Modifier, kan toegepast worden op block of element om af te wijken van standaard gedrag
+BEM ==> Single-responsibility blocks, reusable
+Naming methodology, consistent en nadien snel begrijpbaar
+TE LEZEN nog: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
+
+& en toch nesten
+
+
+
+
 
 
 
