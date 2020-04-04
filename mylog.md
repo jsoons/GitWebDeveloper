@@ -145,6 +145,18 @@ devServer: {
   watch weg, devServer neemt over
   sites/travel-site/package.json in scripts, webpack-dev-server ipv webpack
 
+  2020-04-04 15:08:49
+  automatisch html herladen
+  sites/travel-site/webpack.config.js
+  devServer object
+  before object ==> html reload
+  host object  ==> toegang voor localnet
+  
+  http://localhost:3000/bundled.js , toegang tot gegenereerd bestand. Html in geheugen
+
+  
+
+
 
 
 
