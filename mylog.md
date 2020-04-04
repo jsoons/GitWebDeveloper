@@ -154,7 +154,14 @@ devServer: {
   
   http://localhost:3000/bundled.js , toegang tot gegenereerd bestand. Html in geheugen
 
-  
+
+@media voor resize in css
+maar beter alternatief, postcss mixins
+npm i postcss-mixins --save-dev
+aanpassen sites/travel-site/webpack.config.js
+  require('postcss-mixins'),
+
+
 
 
 
