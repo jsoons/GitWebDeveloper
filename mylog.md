@@ -129,6 +129,21 @@ E __
 M --
 Dus bijkomende modifiers, voor btn btn--orange btn--large
 
+### 2020-04-04 11:05:03
+
+npm i webpack-dev-server --save-dev
+invoegen object 
+
+devServer: {
+    contentBase: path.join(__dirname,'app'),
+    hot: true,
+    port: 3000
+
+  },
+  in sites/travel-site/webpack.config.js
+
+  watch weg, devServer neemt over
+  sites/travel-site/package.json in scripts, webpack-dev-server ipv webpack
 
 
 
