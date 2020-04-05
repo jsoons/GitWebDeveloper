@@ -161,6 +161,42 @@ npm i postcss-mixins --save-dev
 aanpassen sites/travel-site/webpack.config.js
   require('postcss-mixins'),
 
+in mixins stylesheet 
+define-mixin atSmall {
+  @media (min-width: 530px) {
+    @mixin-content;
+  }
+}
+in stylesheet
+@mixin atSmall {
+            font-size: 2rem;
+        }
+### 2020-04-05 06:59:59
+Responsive images
+twee redenen om ander beeld door te sturen, artistiek of technisch
+artistiek ==> cropping, samenstelling beeld ==> focus picture element
+technisch ==> grootte van het bestand, beeldresolutie ==> focus file size
+
+Alternatief 1: artistiek
+<picture></picture>
+binnen picture element, <source>
+gebruiken met media query en srcset attribuut
+image met standaard, klein formaat (mobile first)
+
+Alternatief 2: groote van bestand
+<img> element met srcset attribute
+verschillende alternatieven oplijsten in het img element
+je moet wel aantal pixels meegeven, browser weet welke te kiezen maar weet niet de grootte van afbeelding tenzij deze eerst gedowload wordt, xxxw (aantal pixels wide)
+opgelet! inteligentie in browser, geen micromangement, maakt het bij ontwikkelen soms lastig. 
+Chrome als je van groot naar klein gaat, geen downloads meer (grote zit in cache)
+Voor developper: of afbeelding uit cache halen, of via igcognito mode (andere cache)
+
+Nu aanpassingen aan site
+Aanpassingen aan sites/travel-site/app/index.html
+ook img element kan srcset gebruiken in plaats van src
+
+
+
 
 
 
