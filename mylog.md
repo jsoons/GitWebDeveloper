@@ -243,7 +243,22 @@ Aanpassen in sites/travel-site/app/assets/styles/base/_global.css
 
 oplossing om laatste colom geen padding te hebben, negatieve margin en overflow: hidden (_wrapper.css)
 
-  
+### 2020-04-05 19:53:38
+vscode delete line <SHFT>+<DEL>
+in sites/travel-site/app/index.html media queries , bvb media="(min-width:1020px) 
+opmerking, <img srcset="assets/images/our-start-landscape.jpg" alt="Our founder, Jane Doe"> kan ook met srcset en maar 1 afbeelding
+Bij src aangeven wat maximale breedte is, browser weet niet dat er maar 1/3 van scherm moet gebruikt worden, dus sizes=...
+Extra info is niet nodig voor moble column layout, daar is het maar 1 kolom, en dus klopt veronderstelling van browser terug dat het volledige breedte is
+
+foto zonder alternatieven naar compositie, enkel download
+        <img sizes="(min-width:970px) 976px, 100vw" srcset="assets/images/first-trip-low-res.jpg 565w, assets/images/first-trip.jpg 976w, assets/images/first-trip-high-dpi.jpg 1952w" alt="Couple walking down a street.">
+vw = viewport width
+dus indien geen 970px dan is grootte 100% van de viewport width
+
+line-height: 1.65; ==> heeft geen eenheid nodig
+
+ 
+
 
 
 

@@ -34,4 +34,7 @@
     &--b-marging-large {
         margin-bottom: 1.6em;
     }
+    &--no-t-margin {
+        margin-top: 0;
+    }
 }
