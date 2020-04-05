@@ -221,6 +221,33 @@ layout opnieuw aanpassen met mixin voor mobiel
 aanpassen css sites/travel-site/app/assets/styles/modules/_wrapper.css
 nested wrapper ==> padding-right en left op 0 
 
+### 2020-04-05 15:31:42
+Column layout
+Virtueel 12 kolommen, 1-4 ==> row__4, 5-12 ==> row__8 (8 van de 12)
+Styling: met float neem je element uit normale float, als je dat bij allemaal doet heeft parent element in DOM niks meer.
+Gebeurt nu met class row, de twee kinderen met row__4 en row__8 worden uit de flow genomen en row heeft niks meer over
+
+gutters! ==> "groef"
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
+boxing model
+box-sizing: content-box; ==> basis model
+box-sizing: border-box;  ==> nu nodig om te laten kloppen, starten langs buitenkant
+De verschillende randen (edge) van binnen naar buiten: Content>Padding>Border>Margin
+
+Nu vertrek je vanuit Border (dus enkel marge valt nog buiten afmetingen)
+Aanpassen in sites/travel-site/app/assets/styles/base/_global.css
+* ==> op alles van toepassing
+* {
+  box-sizing: border-box;
+}
+
+oplossing om laatste colom geen padding te hebben, negatieve margin en overflow: hidden (_wrapper.css)
+
+  
+
+
+
+
 
 
 
