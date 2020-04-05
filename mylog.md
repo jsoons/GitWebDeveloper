@@ -212,6 +212,16 @@ Uit de MDN reference https://developer.mozilla.org/nl/docs/Web/CSS/margin-left
 auto
 The left margin receives a share of the unused horizontal space, as determined mainly by the layout mode that is used. If the values of margin-left and margin-right are both auto, the calculated space is evenly distributed.
 
+vscode opmerking. Je kan html elementen toevoegen via emmet
+Stuk tekst selecteren <CTRL><SHFT><P> Emmet: Wrap with abbrevation
+
+Styling voor headlines, bijkomende class b-marging-small , em (is tov element zelf, niet tov root em /rem)
+
+layout opnieuw aanpassen met mixin voor mobiel
+aanpassen css sites/travel-site/app/assets/styles/modules/_wrapper.css
+nested wrapper ==> padding-right en left op 0 
+
+
 
 
 
