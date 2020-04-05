@@ -205,6 +205,14 @@ Create reusable blocks
 padding toevoegen via extra class wrapper
 als je die meegeeft 
 
+Verder design van file met css
+opmerking: beide marges auto ==> gelijkmatig verdelen
+Uit de MDN reference https://developer.mozilla.org/nl/docs/Web/CSS/margin-left
+
+auto
+The left margin receives a share of the unused horizontal space, as determined mainly by the layout mode that is used. If the values of margin-left and margin-right are both auto, the calculated space is evenly distributed.
+
+
 
 
 
