@@ -195,6 +195,15 @@ Nu aanpassingen aan site
 Aanpassingen aan sites/travel-site/app/index.html
 ook img element kan srcset gebruiken in plaats van src
 
+### 2020-04-05 08:10:29
+Testen van responsive images
+-i.jpg bestanden, informatie
+dpr, device pixel ratio kan hoger gezet worden om te testen via chrome developpers tools  
+
+### 2020-04-05 08:18:52 
+Create reusable blocks
+padding toevoegen via extra class wrapper
+als je die meegeeft 
 
 
 
