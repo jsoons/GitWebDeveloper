@@ -257,6 +257,14 @@ dus indien geen 970px dan is grootte 100% van de viewport width
 
 line-height: 1.65; ==> heeft geen eenheid nodig
 
+### 2020-04-05 22:17:02
+git merge om samen te voegen
+
+branch toevoegen
+our-features branch
+
+
+
  
 
 
