@@ -269,6 +269,8 @@ Lijn is nu weg
 
 ### 2020-04-11 15:09:01
 Our feature--branch 
+git merge our features --no-ff //no fast forwding, resulteert in origin in 1 commit
+gulp 
 
 
  
