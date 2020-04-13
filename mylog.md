@@ -272,6 +272,10 @@ Our feature--branch
 git merge our features --no-ff //no fast forwding, resulteert in origin in 1 commit
 gulp 
 
+### 2020-04-12 16:05:30
+flexbox bekijken
+
+
 
  
 
