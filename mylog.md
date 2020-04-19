@@ -278,6 +278,18 @@ flexbox bekijken
 ### 2020-04-18 18:19:14
 Testimonials branch
 
+### 2020-04-19 15:00:00
+in master Git merge footer 
+
+### 2020-04-19 15:31:50
+Header branch
+  require('postcss-hexrgba'),
+installeren met --savedev
+aanpassen in sites/travel-site/webpack.config.js
+
+probleem met z-index: 2;
+
+
 
 
  
