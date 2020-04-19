@@ -307,6 +307,14 @@ class is in syntax!! (prototyping achter schermen)
 
 extends is inheritance
 
+### 2020-04-19 22:07:18
+arrow function
+manipulatie van this keyword, we geven referentie van this door via de arrow functie naar het object van de DOM, niet het object in class waar we werken
+
+In JS, scheiding van DOMS, Events toevoegen (wel in constructor, anders niet opgeroepen),  en listeners via arrowfuncties
+
+
+
 
 
 

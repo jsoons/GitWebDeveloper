@@ -1,7 +1,10 @@
 import '../styles/styles.css';
 // alert("Hello, this is just a test."); 
 
-import Person from "./modules/Person";
+// import Person from "./modules/Person";
+import MobileMenu from "./modules/MobileMenu";
+
+let mobileMenu = new MobileMenu();
 
 if (module.hot) {
   module.hot.accept();
@@ -42,16 +45,16 @@ if (module.hot) {
 //object maken met constructor
 
 
-class Adult extends Person {
-  payTaxes() {
-    console.log(this.name + " payed taxes...");
-  }
+// class Adult extends Person {
+//   payTaxes() {
+//     console.log(this.name + " payed taxes...");
+//   }
 
-}
+// }
 
-let john = new Person("John Doe", "blue");
-john.greet();
+// let john = new Person("John Doe", "blue");
+// john.greet();
 
-let jane = new Adult("Jane Smith","green");
-jane.greet();
-jane.payTaxes();
+// let jane = new Adult("Jane Smith","green");
+// jane.greet();
+// jane.payTaxes();
