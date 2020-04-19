@@ -289,6 +289,27 @@ aanpassen in sites/travel-site/webpack.config.js
 
 probleem met z-index: 2;
 
+### 2020-04-19 20:27:14
+Objecten
+geen () bij functie toevoegen in object
+Dus greet: ipv greet():
+argumenten zitten na function()
+
+Eerst gewoon objecten, dan met constructor
+constructor object ==> hoofdletter 
+oproepen met new keyword
+
+In aparte bestanden
+Niet vergeten op einde van module export default "classname" te doen 
+
+Na constructor manier, nu ook class manier
+class is in syntax!! (prototyping achter schermen)
+
+extends is inheritance
+
+
+
+
 
 
 
