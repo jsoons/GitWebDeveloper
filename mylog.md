@@ -313,6 +313,8 @@ manipulatie van this keyword, we geven referentie van this door via de arrow fun
 
 In JS, scheiding van DOMS, Events toevoegen (wel in constructor, anders niet opgeroepen),  en listeners via arrowfuncties
 
+### 2020-05-01 18:37:04
+
 
 
 
